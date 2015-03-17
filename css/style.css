@@ -1,0 +1,75 @@
+.footer_bottom{
+	background: #333;
+	padding:24px 0px 10px;
+	display: block;
+}
+.social_icons{
+    height: 50px;
+    width: 50px;
+    float:right;
+    margin-bottom:8px;
+    list-style-position: outside;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+a.twitter{
+	background: transparent url("../img/social.png") no-repeat scroll center 0px;
+	text-decoration: none;
+}
+a.facebook{
+	background: transparent url("../img/social.png") no-repeat scroll center -200px;
+	text-decoration: none;
+}
+a.mail{
+    background: transparent url("../img/social.png") no-repeat scroll center -400px;
+    text-decoration: none;
+}
+a:hover{
+	cursor:pointer;
+
+}
+ul>li{
+	list-style:outside none none;
+	display: inline-block;
+	color:#666666;
+	text-transform: uppercase;
+}
+ul>p{
+	color:#666666;
+}
+.sidess{
+	background: #333333;
+	border-radius: 5px 5px 5px 5px;
+}
+.linkss a:hover {
+	background: #ccc;
+	color:#000000;
+}
+.icono{
+    width: 200px;
+    height: 200px;
+}
+.uno{
+    background:  url(../img/uno.jpg);
+}
+.dos{
+    background:  url(../img/dos.jpg);
+}
+.tres{
+    background:  url(../img/tres.jpg);
+}
+.cuatro{
+    background:  url(../img/cuatro.jpg);
+}
+.cinco{
+    background:  url(../img/cinco.jpg);
+}
+.seis{
+    background:  url(../img/seis.jpg);
+}
+.siete{
+    background:  url(../img/siete.jpeg);
+}
+.ocho{
+    background:  url(../img/ocho.jpg);
+}
