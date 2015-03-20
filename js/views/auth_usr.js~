@@ -1,5 +1,5 @@
 //var App = App || {};
-//interface clase abstracta
+
 App.Auth_usr = Backbone.View.extend({
 	
 	el:'#con-tent',

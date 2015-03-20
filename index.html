@@ -40,6 +40,39 @@
         </div>
     </script>
     <script type="text/template" id="tpl_register">
+        <div class="row">
+            <fieldset>
+              <legend>Register</legend>
+              <div class="large-4 large-offset-4 columns" id="login">
+                <form data-abide>
+                  <div class="email-field">
+                    <label>Insert Email: <small>(required)</small>
+                      <input type="email" required id="inputEmail">
+                    </label>
+                    <small class="error">An email address is required.</small>
+                  </div>
+                  <div class="password-field">
+                    <label>Pass: <small>(required)</small>
+                      <input type="password" required pattern="[a-zA-Z]+" id="inputPass">
+                    </label>
+                    <small class="error">The password must match the requirements (a-zA-Z).</small>
+                  </div>
+                  <div class="password-confirmation-field">
+                    <label>Confirm Password <small>(required)</small></label>
+                    <input type="password" required pattern="[a-zA-Z]+" data-equalto="password">
+                    <small class="error">the password did not match</small>
+                  </div>
+                  //agregar confirmacion
+                  <ul class="button-group round cincox">
+                    <li><a href="#" class="button" id="btn-submit">Submit</a></li>
+                    <li><a href="#" class="button" id="btn-cancel">Cancel</a></li>
+                  </ul>
+                </form>
+              
+              </div>
+            </fieldset>
+            
+        </div>
     </script>
     <script type="text/template" id="tpl_home">
     <div class="row">
